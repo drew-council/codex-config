@@ -1,5 +1,5 @@
-model = "gpt-5.5"
-model_reasoning_effort = "medium"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
 
 web_search = "live"
 
@@ -8,7 +8,7 @@ plan_mode_reasoning_effort = "high"
 approvals_reviewer = "auto_review"
 approval_policy = "on-request"
 sandbox_mode = "workspace-write"
-service_tier = "fast"
+service_tier = "default"
 
 [auto_review]
 policy = """
@@ -231,6 +231,39 @@ trust_level = "trusted"
 [projects."/home/drew/dirac/buildos-web-node-lock-review-bug"]
 trust_level = "trusted"
 
+[projects."/home/drew/.pi"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-pristine"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-domains-assembly-planner"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-blueport-crosshair"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-nix-improvements"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-blueport-loading"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-blueport-capture"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-pr-review"]
+trust_level = "trusted"
+
+[projects."/home/drew/personal/tuicr"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-obfuscate-wgsl"]
+trust_level = "trusted"
+
+[projects."/home/drew/dirac/buildos-web-devtools-go"]
+trust_level = "trusted"
+
 [features]
 view_image_tool = true   # let Codex attach local images (paths in your workspace) to the model request
 
@@ -260,3 +293,4 @@ theme = "catppuccin-mocha"
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
+"gpt-5.6-sol" = 4
